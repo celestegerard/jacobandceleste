@@ -1,0 +1,271 @@
+.mo-header{
+    display: none;
+}
+
+.mo-main-img{
+    display: none;
+}
+
+.mo-text{
+    display: none;
+}
+
+.white-nav {
+  display: hidden;
+}
+
+.nav {
+  display: hidden;
+}
+
+.header {
+  height: 50px;
+  background-color: white;
+  width:100%;
+  text-align: center;
+  border-bottom: .1px solid #D6D7D8;
+  vertical-align: center;
+  display: inline-block;
+}
+
+.logo {
+  height: 50px;
+  display: inline-block;
+  margin: 0 auto;
+  float:inherit;
+}
+
+.left-menu-item {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 200;
+  font-size: 1em;
+  padding-left: 3em;
+  padding-top: 15px;
+  display: inline-block;
+  margin: 0 auto;
+  float: left;
+  vertical-align: center;
+}
+
+.right-menu-item {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 200;
+  font-size: 1em;
+  padding-right: 3em;
+  padding-top: 15px;
+  display: inline-block;
+  margin: 0 auto;
+  float: right;
+  vertical-align: center;
+}
+
+.left-menu-item:hover {
+  color: #004369;
+}
+
+.right-menu-item:hover {
+  color: #004369;
+}
+
+.left-menu-item:active {
+  color: #004369;
+}
+
+.main-img {
+  position: absolute;
+  width: 66%;
+  left: 0px;
+  top: 59.5px;
+}
+
+.text-block {
+  float: right;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 200;
+  font-size: 1em;
+  line-height:25px;
+  width: 33%;
+}
+
+.reg-button {
+  width: 125px;
+  height: 30px;
+  border: .3px solid #004369;
+  color: #004369;
+  font-color: #004369;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.reg-button:hover {
+  background-color:#fffafd;
+}
+
+
+.atc-button {
+  width: 115px;
+  height: 30px;
+  border: .3px solid #004369;
+  color: #004369;
+  font-color: #004369;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.atc-button:hover {
+  background-color:#fffafd;
+}
+
+
+.photo-cred {
+  float: right;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 200;
+  font-size: .95em;
+  line-height: 25px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004369;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+
+  .mo-header{
+      display: inline-block;
+      height: 150px;
+      width: 100%;
+      text-align: center;
+      vertical-align: center;
+      border-bottom: .1px solid #D6D7D8;
+  }
+
+  .header {
+    display: none;
+  }
+
+.nav {
+  position: relative;
+  height: 120px;
+  float: left;
+  padding-top:1%;
+  padding-left: 3%;
+}
+
+.white-nav {
+  position: relative;
+  height: 120px;
+  float: right;
+  padding-top: 1%;
+}
+
+  .logo {
+    padding-top: 1%;
+    height: 135px;
+    display: inline-block;
+    margin: 0 auto;
+    float:inherit;
+  }
+
+  .mo-main-img {
+    display:inline-block;
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  .main-img {
+    display:none;
+  }
+
+  .text-block {
+    display: none;
+  }
+
+  .mo-text{
+    position: relative;
+    padding-top: 5px;
+    display: inline-block;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 200;
+    font-size: 3.5em;
+    line-height:85px;
+    text-align: center;
+  }
+
+  .mo-wrap {
+    text-align: center;
+    padding-bottom: 10%;
+    padding-left:15%;
+    padding-right: 15%;
+  }
+
+  .mo-menu {
+    display: inline-block;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 200;
+    font-size: 6em;
+    line-height:200px;
+    text-align: center;
+  }
+
+  .mo-wrap-menu {
+    padding-top:25%;
+    padding-left:20%;
+    padding-right:20%;
+    text-align: center;
+  }
+
+.mo-back {
+  background-color: #fafafa;
+  height: 2150px;
+  width:100%;
+}
+
+.mo-atc-button {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 200;
+  font-size: 1em;
+  text-align: center;
+  color: #004369;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mo-atc-wrap {
+  width: 400px;
+  height: 100px;
+  color: #004369;
+  border: 1px solid #004369;
+}
+
+.mo-reg-button {
+  width: 450px;
+  height: 100px;
+  color: #004369;
+  border: 1px solid #004369;
+  text-align: center;
+}
+
+.mo-reg-wrap {
+  padding-bottom:15px;
+  padding-left:12%;
+  padding-right: 12%;
+}
+
+.mo-atc-pad {
+  padding-left: 20%;
+  padding-right: 10%;
+}
+
+  /* .mo-
+    } */
